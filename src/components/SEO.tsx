@@ -15,9 +15,9 @@ const SEO = ({
   ShowTitleSuffix = true,
   IndexPage = true,
 }: IProps) => {
-  const pageTitle = `${title}${ShowTitleSuffix ? ' | ES' : ''}`
+  const pageTitle = `${title}${ShowTitleSuffix ? ' | AquaMunda' : ''}`
   const pageDescription = !description
-    ? 'A melhor Academia e Consultoria de Excel do Brasil.'
+    ? 'Melhor amigo do mundo (e dos professores).'
     : description
   const pageImage = image ? `/${image}` : '/favicon.ico'
   return (
