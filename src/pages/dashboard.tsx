@@ -13,7 +13,7 @@ export const getUniqueBy = (prop: string, list: Array<any>) => {
 }
 
 export default function Home() {
-  const uniqueMaterias = getUniqueBy('materia', data)
+  const uniqueMaterias = getUniqueBy('materia', data).map(item => item.materia)
   const toast = useToast()
   return (
     <Flex
@@ -70,9 +70,8 @@ export default function Home() {
         w="90%"
         h="90%"
       >
-        {uniqueMaterias.map(m => (
-          <SubjectContainer key={m} materia={m} />
-        ))}
+        {uniqueMaterias.length > 0 &&
+          uniqueMaterias.map(m => <SubjectContainer key={m} materia={m} />)}
       </Flex>
     </Flex>
   )
