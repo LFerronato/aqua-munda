@@ -7,8 +7,13 @@ import SubjectContainer from '../components/SubjectContainer'
 
 import data from '../content/tmp-data.json'
 
+export const getUniqueBy = (prop: string, list: Array<any>) => {
+  const objUniq = list.reduce((res, item) => ({ ...res, [item[prop]]: item }), {})
+  return Object.keys(objUniq).map(item => objUniq[item])
+}
+
 export default function Home() {
-  const uniqueMaterias = [...new Set(data.map(i => i.materia))]
+  const uniqueMaterias = getUniqueBy('materia', data)
   const toast = useToast()
   return (
     <Flex
