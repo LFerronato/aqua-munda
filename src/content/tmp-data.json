@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "materia": "História",
+    "category": "Exercício Avaliativo",
+    "title": "Origens da Cidade do México",
+    "content": "Cidade do méxico teve origem em volta de um rio, comportamento comum de muitas cidades na época, pois a agua sempre foi um bem extremamente importante pra qualquer civilização.",
+    "img_link": "https://cdn.hipercultura.com/imagens/astecas-conheca-a-civilizacao-og.jpg"
+  },
+  {
+    "id": 2,
+    "materia": "Matemática",
+    "category": "Exercício Avaliativo",
+    "title": "Geometria Espacial",
+    "content": "Quantos litros tem em 1m³?",
+    "img_link": "https://i.ytimg.com/vi/2vr16udJ-J0/maxresdefault.jpg"
+  },
+  {
+    "id": 3,
+    "materia": "Ciências",
+    "category": "Atividade de Campo",
+    "title": "Criar um sistema de reaproveitamento",
+    "content": "Como funciona um sistema de reaproveitamento de agua da chuva? Realizar uma atividade em grupos, com a missão de pesquisar sobre e desenvolver um protótipo simples relacionado.",
+    "img_link": "https://www.prhengenharia.com.br/wp-content/uploads/2017/12/rainwater-recycling.jpg"
+  },
+  {
+    "id": 4,
+    "materia": "Ciências",
+    "category": "Atividade de Campo",
+    "title": "Titulo1",
+    "content": "Conteúdo 1",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 5,
+    "materia": "Geografia",
+    "category": "Atividade de Campo",
+    "title": "Titulo1",
+    "content": "Conteúdo 1",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 6,
+    "materia": "Geografia",
+    "category": "Exercício Avaliativo",
+    "title": "Titulo2",
+    "content": "Conteúdo 2",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 7,
+    "materia": "Geografia",
+    "category": "Conteúdo",
+    "title": "Titulo3",
+    "content": "Conteúdo 3",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 8,
+    "materia": "Geografia",
+    "category": "Projeto",
+    "title": "Titulo4",
+    "content": "Conteúdo 4",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 9,
+    "materia": "Geografia",
+    "category": "Exercício Avaliativo",
+    "title": "Titulo5",
+    "content": "Conteúdo 5",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  },
+  {
+    "id": 10,
+    "materia": "História",
+    "category": "Exercício Avaliativo",
+    "title": "Titulo5",
+    "content": "Conteúdo 5",
+    "img_link": "https://149361159.v2.pressablecdn.com/wp-content/uploads/2021/01/placeholder.png"
+  }
+]

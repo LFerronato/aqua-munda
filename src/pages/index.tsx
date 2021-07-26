@@ -39,9 +39,9 @@ export default function Home() {
               Promover a Educação Azul
             </Heading>
             <Text>
-              Professores, compartilhem suas ideias sobre como introduzir o assunto da
-              água em qualquer matéria e propagar boas informações com as crianças e
-              adolecentes.
+              <strong>Professores</strong>, compartilhem suas ideias sobre como introduzir
+              o assunto da água em qualquer matéria e propagar boas informações com as
+              <strong> crianças e adolescentes</strong>.
             </Text>
             <Text>Contribua com a mudança!</Text>
 
