@@ -34,7 +34,7 @@ const SubjectContainer = ({ materia }: IProps) => {
           <Flex
             key={i.id}
             h="150px"
-            w="250px"
+            w="280px"
             bg="white"
             borderRadius="xl"
             m="3"
@@ -52,9 +52,14 @@ const SubjectContainer = ({ materia }: IProps) => {
               })
             }
           >
-            <Box borderRadius="full" mb="3">
-              <Image src={i.img_link} w="40px" h="40px" borderRadius="full" />
-            </Box>
+            <Flex>
+              <Box borderRadius="full" mb="3">
+                <Image src={i.img_link} w="40px" h="40px" borderRadius="full" />
+              </Box>
+              <Heading size="small" color="#60aaa4" flexWrap="nowrap" mx="auto">
+                {i.category}
+              </Heading>
+            </Flex>
             <Heading size="small" color="gray.500" flexWrap="nowrap">
               {i.title}
             </Heading>
